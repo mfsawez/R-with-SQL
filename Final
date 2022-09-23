@@ -16,11 +16,11 @@ MONTHLY_FX
 # Establish database connection
     dsn_driver <- "{IBM DB2 ODBC Driver}"
     dsn_database <- "bludb"            # e.g. "bludb"
-    dsn_hostname <- "125f9f61-9715-46f9-9399-c8177b21803b.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud" # e.g "54a2f15b-5c0f-46df-8954-.databases.appdomain.cloud"
-    dsn_port <- "30426"   # e.g. "32733" 
+    dsn_hostname <- "" # e.g "54a2f15b-5c0f-46df-8954-.databases.appdomain.cloud"
+    dsn_port <- ""   # e.g. "32733" 
     dsn_protocol <- "TCPIP"            # i.e. "TCPIP"
-    dsn_uid <- "hcf24879"        # e.g. "zjh17769"
-    dsn_pwd <- "28O5fqo0nx6gk6iQ"      # e.g. "zcwd4+8gbq9bm5k4"  
+    dsn_uid <- ""        # e.g. "zjh17769"
+    dsn_pwd <- ""      # e.g. "zcwd4+8gbq9bm5k4"  
     dsn_security <- "ssl"
 
     conn_path <- paste("DRIVER=",dsn_driver,
